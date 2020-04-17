@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Memory Game</title>
+</head>
+<body>
+    <div class="control-buttons">
+        <span>Start Game</span>
+    </div>
+    <div class="info-container">
+        <div class="name">
+            Hello: <span></span>
+        </div>
+        <div class="tries">
+            Wrong Tries: <span>0</span>
+        </div>
+    </div>
+    <div class="memory-game-blocks">
+        <div class="game-block" data-player="allison">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/allison.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-player="allison">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/allison.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-player="arnold">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/arnold.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-player="arnold">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/arnold.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-player="firmino">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/firmino.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-player="firmino">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/firmino.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-player="henderson">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/henderson.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-player="henderson">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/henderson.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-player="klopp">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/klopp.jpeg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-player="klopp">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/klopp.jpeg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-player="mane">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/mane.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-player="mane">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/mane.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-player="robertson">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/robertson.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-player="robertson">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/robertson.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-player="salah">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/salah.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-player="salah">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/salah.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-player="vandijk">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/vandijk.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-player="vandijk">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/vandijk.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-player="wijnaldum">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/wijnaldum.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-player="wijnaldum">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/wijnaldum.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <audio id="success" src="audio/success.mp3" preload="auto"></audio>
+    <audio id="fail" src="audio/failure.mp3" preload="auto"></audio>
+    <script src="main.js"></script>
+</body>
+</html>
